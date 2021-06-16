@@ -1,7 +1,5 @@
 <?php
-$camp = $_GET["camp"];
-$adset = $_GET["adset"];
-$ban = $_GET["ban"];
+$sub1 = $_GET["sub1"];
 $tid = $_GET["tid"];
 
 ?>
@@ -874,7 +872,7 @@ $tid = $_GET["tid"];
 
                                     </center>
                                     <br><br> <br>
-                                    <form action="<?php echo "order.php?camp=$camp&adset=$adset&ban=$ban&tid=$tid";?>" class="torder_form orderForm" method="post">
+                                    <form action="<?php echo "order.php?sub1=$sub1&tid=$tid";?>" class="torder_form orderForm" method="post">
                                         <input type="hidden" name="subid1" value="{subid}"/>
                                         <center><s> 218 zł
                                         </s>

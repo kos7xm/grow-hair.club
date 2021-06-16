@@ -1,5 +1,5 @@
 <?php
-$sub1 = $_GET["camp"].'/'.$_GET["adset"].'/'.$_GET["ban"];
+$sub1 = $_GET["sub1"];
 $tid = $_GET["tid"];
 
 const THANKS_URL = './thanks/thanks.php'; // ссылка на страницу "спасибо"
