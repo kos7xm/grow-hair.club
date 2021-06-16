@@ -13,7 +13,7 @@ $post = [
     'hash' => HASH,
     'subid1' => $sub1,
     'subid2' => $tid,
-    'subid3' => $_POST["subid3"],
+    'subid3' => "7xm",
     'subid4' => $_POST["subid4"],
     'ip' => $_SERVER['REMOTE_ADDR'],
 ];
