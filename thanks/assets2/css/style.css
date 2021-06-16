@@ -1,0 +1,127 @@
+/*============ WRAPPER ============*/
+.block {min-width: 280px; margin: 0 auto;}
+.block.hr {max-width: 1190px; margin: 42px 0;}
+.wrap {max-width: 1140px; padding: 0 30px; margin: 0 auto;}
+.wrap:after, .wrap:before {content: " "; display: table; clear: both;}
+img {max-width: 100%;}
+
+.hr {height: 5px; background: url('../images/hr.jpg') repeat-x center;}
+
+/*============ BLOCK'S ============*/
+header {background-color: #f3f3f3; padding: 6px 0 2px; margin: 0 auto 42px;}
+header .flex-container {-webkit-box-pack: start;-ms-flex-pack: start;justify-content: start; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+header .logo-s {padding: 0 20px 0 0; margin: 0 16px 0 0; border-right: 1px solid #7B7C7C;}
+header span {margin: 0 0 6px 0;}
+header a {color: inherit; border: none;}
+
+.block.order .left-block {width: calc(50% - 15px); max-width: 555px;}
+.block.order .right-block {width: calc(50% - 15px); max-width: 555px; }
+.block.order .left-block .px40 {padding-top: 0;}
+.merged-blocks.flex-container {-webkit-box-align: stretch;-ms-flex-align: stretch;align-items: stretch;}
+.merged-blocks:nth-child(1) {margin: 0 0 30px;}
+.product-block {padding: 24px; border: 1px solid #DAD6D6; border-radius: 3px;}
+.product-block .flex-container {-webkit-box-pack: start; -ms-flex-pack: start; justify-content: start;}
+.product-block .flex-container .product-img {margin: 0 40px 0 20px;}
+.product-block .gray-bg {display: inline-block; padding: 7px; margin: 0 0 10px 0; background-color: rgba(196, 196, 196, 0.2); border-radius: 3px;}
+.product-block .miniblocks {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 20px 0 0 0;}
+.product-block .reviews-miniblock {width: calc(55% - 46px); -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; -ms-flex-line-pack: stretch; align-content: stretch; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: distribute; justify-content: space-around; padding: 4px 18px; background-color: #F7F8F8; border-radius: 3px;}
+.product-block .reviews-miniblock .radial-progress {margin: 12px 0 0;}
+.product-block .info-faq-miniblock {width: calc(45% - 10px); -ms-flex-wrap: wrap; flex-wrap: wrap;}
+.product-block .info-faq-miniblock div {margin: 8px 0;}
+.product-block .info-faq-miniblock div * {display: inline-block; vertical-align: text-top;}
+.product-block .info-faq-miniblock a {font: 12px/140% 'Proxima Nova Light', sans-serif; color: #000000; border-bottom: none; text-decoration: underline;}
+.product-block .info-faq-miniblock a:hover {text-decoration: none;}
+.product-block .info-faq-miniblock .faq-icon {margin: 0 10px 0 0;}
+.product-block .info-faq-miniblock .info-icon {margin: 0 13px 0 3px;}
+.additional-products {background-color: #F7F8F8; border-radius: 3px;}
+.additional-products .flex-container {min-height: 103px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 10px;}
+.additional-products .flex-container img {margin: auto 20px auto 10px;}
+.you-order {display: inline-block; padding: 7px 32px; margin: 3% auto; background-color: rgba(27, 181, 0, 0.1); border-radius: 3px;}
+
+.about-container {margin: 30px 0 0 0;}
+.block.about .address a {color: inherit; border: none;}
+.block.about .flex-container {-webkit-box-align: start;-ms-flex-align: start;align-items: start;}
+.block.about .address {width: 25%; max-width: 270px; margin: 0 30px 0 0;}
+.block.about .merged-blocks {width: calc(100% - 25%);}
+.foto .flex-container, .advantages .flex-container {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between; -webkit-box-align: baseline!important; -ms-flex-align: baseline!important; align-items: baseline!important;}
+.foto .flex-container > div, .advantages .flex-container > div {width: 32%; max-width: 261px;}
+.advantages .flex-container > div {display: -webkit-box;display: -ms-flexbox;display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 30px 0 0 0;}
+.advantages .flex-container > div img {margin: 0 10% 0 0;}
+
+.offers-container {margin: 30px 0;}
+.offer-card {width: calc(100% / 3 - 48px); padding: 24px 13px 13px; border: 1px solid #DAD6D6; border-radius: 5px;}
+.offer-card:hover {-webkit-box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.05);box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.05);}
+.offers-container {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
+.offer-img {margin: 0 30px;}
+.offer-img img {max-width: inherit;}
+.offer-card .button {display: inline-block; padding: 4px 10px; background-color: #1BB500; border-radius: 3px; font-size: 12px; line-height: 12px; color: #FFFFFF; text-align: center; text-decoration: none; border-bottom: none;}
+.offer-card .button:hover {background-color: transparent; -webkit-box-shadow: inset 0px 0px 0px 1px #1BB500; box-shadow: inset 0px 0px 0px 1px #1BB500; color: #1BB500;}
+.offer-card p {padding: 0;}
+.offer-card .prices {-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start; margin: 10px 0;}
+.offer-card .prices p:first-child {margin: 0 10px 0 0;}
+.offer-name {margin: 0 0 8px 0;}
+.offer-card .discount {position: absolute; left: -28px; bottom: -4px; width: 40px; height: 40px; line-height: 42px; border-radius: 100%; background-color: #FF1010; text-align: center; color: #FFFFFF;}
+
+.block.refaq .left-block {width: calc(50% - 15px); float: left; margin: 0 0 0 0;}
+.block.refaq .right-block {width: calc(50% - 15px); float: right;}
+.block.refaq .px40 {padding: 0;}
+.block.refaq .head {margin: 0 0 16px 0;}
+.block.refaq .flex-container {-webkit-box-align: end;-ms-flex-align: end;align-items: flex-end;}
+.block.refaq .powered a {color: inherit; border-bottom: none; text-decoration: underline;}
+.block.refaq .gray-bg {display: inline-block; padding: 2px 4px 0; background-color: rgba(196, 196, 196, 0.2); border-radius: 3px;}
+.review-container {margin: 0 0 25px 0; padding: 20px 20px 18px; background-color: #F7F8F8; border-radius: 5px;}
+.review-container:last-child {margin: 0;}
+.block.refaq .review-user-info {-webkit-box-align: center;-ms-flex-align: center;align-items: center; margin: 30px 0 0 0; padding: 8px 14px; background-color: rgba(0, 0, 0, 0.06); border-radius: 3px;}
+.review-user-name {}
+.review-text {width: calc(100% - 120px); float: right;}
+.review-text {width: 100%; float: right;}
+.review-text p {padding: 0;}
+.likes .like {position: relative; margin: 0 5px 0 10px; cursor: pointer;}
+.likes .like:nth-child(1) {top: -3px;}
+.likes .like:nth-child(3) {top: 2px;}
+.likes * {display: inline-block; vertical-align: middle;}
+.review-container[data-sort="5"] {background-color: #E9F8E6;}
+.review-container[data-sort="1"] {background-color: #FDEBEA;}
+
+.block.refaq .subscribe {-webkit-box-align: center;-ms-flex-align: center;align-items: center; margin: 16px 0 0 0; padding: 10px 20px; border-radius: 3px; background-color: rgba(255, 216, 0, 0.05);}
+.block.refaq .subscribe .button {display: inline-block; margin: 0 0 0 20px; padding: 6px 12px; background-color: #1BB500; border-radius: 3px; font-size: 14px; line-height: 14px; color: #FFFFFF; text-align: center; text-decoration: none; border-bottom: none;}
+.block.refaq .subscribe .button:hover {background-color: transparent; -webkit-box-shadow: inset 0px 0px 0px 1px #1BB500; box-shadow: inset 0px 0px 0px 1px #1BB500; color: #1BB500;}
+
+.faq-container {padding: 20px 0 8px 0; /*background: url('../images/slide_down.svg') no-repeat top 25px right 10px; cursor: pointer;*/}
+.faq-container:nth-child(2) {margin-top: -20px;}
+.faq-container p {padding: 0;}
+.faq-question {border-bottom: 1px dashed #d9d9d9;}
+.faq-question p {padding: 0 0 10px 0;}
+.faq-answer {padding: 16px 0 0 0!important; cursor: auto;}
+
+footer {padding: 30px 0;}
+
+.footer-line {background-color: #F7F8F8; padding: 6px 0 2px; text-align: center;}
+
+/* Rate */
+.radial-progress span {opacity: 0;}
+.radial-progress {width: 64px; height: 64px; position: relative; background-color: #DCE9DA; border-radius: 100%;}
+.radial-progress .circle .mask,
+.radial-progress .circle .fill {width: 64px; height: 64px; position: absolute; border-radius: 100%;}
+.radial-progress .circle .mask,
+.radial-progress .circle .fill {-webkit-backface-visibility: hidden; transition: -webkit-transform 1s; transition: -ms-transform 1s; -webkit-transition: -webkit-transform 1s; -o-transition: transform 1s; transition: transform 1s; transition: transform 1s, -webkit-transform 1s;}
+.radial-progress .circle .mask {clip: rect(0px, 64px, 64px, 32px);}
+.radial-progress .circle .mask .fill {clip: rect(0px, 32px, 64px, 0px); background-color: #1BB500;}
+.radial-progress .inset {width: 58px !important; height: 58px !important; position: absolute; top: 50%; left: 50%; margin: -29px 0 0 -29px !important; background-color: #E2F2E0; border-radius: 100%; text-align: center; line-height: 58px;}
+
+/* Notice */
+.notice {-webkit-transition: 0.2s ease-in-out;-o-transition: 0.2s ease-in-out;transition: 0.2s ease-in-out; position: fixed; z-index: 9999; right: 20px; top: 20px; max-width: calc(350px - 40px); padding: 20px; background-color: #FFFFFF; border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.05); -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.15);}
+.notice .flex-container {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between; -webkit-box-orient: inherit!important; -webkit-box-direction: inherit!important; -ms-flex-direction: inherit!important; flex-direction: inherit!important;}
+.notice .notice-img {}
+.notice .notice-info {-webkit-transition: width 0.5s, visibility 0s, opacity 0.5s ease-in-out;-o-transition: width 0.5s, visibility 0s, opacity 0.5s ease-in-out;transition: width 0.5s, visibility 0s, opacity 0.5s ease-in-out; position: relative; margin: 0 0 0 20px;}
+.notice .button {display: inline-block; padding: 8px 20px; background-color: #1BB500; border-radius: 3px; font-size: 12px; line-height: 12px; color: #FFFFFF; text-align: center; text-decoration: none; border-bottom: none;}
+.notice .button:hover {background-color: transparent; -webkit-box-shadow: inset 0px 0px 0px 1px #1BB500; box-shadow: inset 0px 0px 0px 1px #1BB500; color: #1BB500;}
+.notice .close {-webkit-transform: scale(1.8);-ms-transform: scale(1.8);transform: scale(1.8); -webkit-transition: 0.2s ease-in-out; -o-transition: 0.2s ease-in-out; transition: 0.2s ease-in-out; top: 8px; right: 8px; cursor: pointer;}
+.notice .close:hover {-webkit-transform: scale(2);-ms-transform: scale(2);transform: scale(2);}
+
+/* STYLE CSS END */
+
+
+
+
+

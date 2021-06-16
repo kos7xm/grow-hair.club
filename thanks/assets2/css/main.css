@@ -1,0 +1,66 @@
+/*============ CSS BEGIN ============*/
+/* Geniral style */
+* {padding: 0; margin: 0;}
+header, footer {display: block;}
+html, body {height: auto; max-height: 100%;}
+body {font-family:'Proxima Nova Regular', Georgia, sans-serif; font-size: 18px; color: #2d2d2d; //-webkit-font-smoothing: antialiased;}
+p {padding: 10px 0; line-height: 120%;}
+
+/* Link Style */
+a {color:inherit; text-decoration: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;}
+a {color: #0a9bdf; border-bottom: 1px dashed;}
+a.link {border-bottom: 1px solid;}
+a:hover {border-bottom: none;}
+
+/* Colors style */
+.red {color: #FF0000;}
+.gray {color: #a5a5a5;}
+.lgray {color: #e0e0e0;}
+.lgray2 {color: #ADAEAE;}
+.dgray {color: #797979;}
+.green {color: #1BB500;}
+
+/* Font family style */
+.pnbd {font-family: 'Proxima Nova Bold', sans-serif;}
+.pnl {font-family: 'Proxima Nova Light', sans-serif;}
+
+/* Text & font style */
+.center {text-align: center;}
+.no-padding {padding: 0;}
+.flleft {float: left;}
+.flright {float: right;}
+.lh100 {line-height: 100%;}
+.lh140 {line-height: 140%;}
+.underline {text-decoration: underline;}
+.upp {text-transform: uppercase;}
+.alignr {text-align: right;}
+.textlt {text-decoration: line-through;}
+
+/* Display style */
+.inline-b {display: inline-block; zoom: 1; *display: inline;}
+.flex-container {display: -webkit-box;display: -ms-flexbox;display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
+/* Positon's style */
+.rel {position: relative;}
+.abs {position: absolute;}
+/* Clear */
+.clearfix:after {content: ""; display: table; clear: both; *zoom: 1;}
+.clear {clear: both;}
+.wid25 {width: 25%;}
+.wid50 {width: 50%;}
+.wid100 {width: 100%;}
+
+/*============ FORM ============*/
+
+/* placeholder style */
+::-webkit-input-placeholder {color: #2d2d2d; font-size: 16px;}
+:-moz-placeholder {color: #2d2d2d; font-size: 16px;}
+::-moz-placeholder {color: #2d2d2d; font-size: 16px;} 
+:-ms-input-placeholder {color: #2d2d2d; font-size: 16px;}
+
+/* Form button & custom button style */
+
+/*============ ANIMATIONS ============*/
+
+/* Button animation */
+
+/* END MAIN CSS */
